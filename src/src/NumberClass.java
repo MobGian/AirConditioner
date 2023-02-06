@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 /***
  * 
  * @author Gianl
- * Classe con la responsabilita di generare la temperatura iniziale, variarla e gestirla
+ * Classe con la responsabilita di generare la temperatura iniziale, variarla e gestirla nel range stabilito
  */
 public class NumberClass implements Runnable{
 

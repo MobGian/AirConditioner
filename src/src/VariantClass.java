@@ -3,7 +3,7 @@ package src;
 /***
  * 
  * @author Gianl
- * Gestisce meglio l'accesso alla generazione dei numeri del condizionatore, facendo da intermediario tra l'observer e l'observable
+ * Gestisce l'accesso alla generazione dei valori del condizionatore, facendo da intermediario tra l'Observer e l'Observable
  */
 public class VariantClass extends Observer{
 	
@@ -17,7 +17,7 @@ public class VariantClass extends Observer{
 	
 	/***
 	 * 
-	 * richiama il metodo del thread da NumberClass per generare i numeri random per il climatizzatore
+	 * richiama il metodo del thread da NumberClass per generare i valori random per il climatizzatore
 	 */
 	@Override
 	public void update() { 

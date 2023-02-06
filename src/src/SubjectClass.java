@@ -6,7 +6,7 @@ import java.util.List;
 /***
  * 
  * @author Gianl
- *	Subject class tiene la lista degli observers interessati agli aggiornamenti della classe observable
+ *	Subject class tiene la lista degli observers interessati agli aggiornamenti della classe Observable
  */
 public class SubjectClass {
 	
@@ -25,7 +25,7 @@ public class SubjectClass {
 	/***
 	 * 
 	 * @param observer
-	 * Aggiunge classi interessate all'aggiornamento dell'observable nella lista observer
+	 * Aggiunge classi interessate all'aggiornamento dell'observable nella lista Observer
 	 */	
 	public void attach(Observer observer) {
 		observers.add(observer);
@@ -33,7 +33,7 @@ public class SubjectClass {
 	
 	
 	/***
-	 * Aggiorna tutti gli observers nella lista Observers degli aggiornamenti della classe observable
+	 * Aggiorna tutti gli observers nella lista Observers degli aggiornamenti della classe Observable
 	 */
 	private void norifyAllObservers() {
 		// TODO Auto-generated method stub
